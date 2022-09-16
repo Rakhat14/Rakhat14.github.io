@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Akhmetov Rakhat</title>
+	<script type="text/javascript">function openCity(evt, cityName) {
+   
+    var i, tabcontent, tablinks;
+
+   
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}</script>
+</head>
+<body>
+<h1 id="port">Portfolio<h1>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Bio')">Bio</button>
+  <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+</div>
+
+<div id="Bio" class="tabcontent">
+  <h3 class = "text1">Bio</h3>
+  <p class = "text1">     My name is Rakhat I am 19 years old, and I live in Almaty. In 2009 I went to school in school I was excellent student physics and math was my favorite subjects. In 10 grade I already decided that I will choose profession related to engineering and my friend recommended me to try code some programs and solve problems I found that very interesting and decided to be software engineer. In 2020 after passing exams, I could have chosen from many universities and my older friend who was studying in IITU told me that this University is good choice. So, in 2020 I entered IITU where I study to this day.
+</p>
+
+</div>
+
+<div id="Skills" class="tabcontent">
+  <h3 class = "text1">Skills</h3>
+  <p class = "text1">C++,Java,HTML,CSS,Javascript</p>
+</div>
+
+<div id="Projects" class="tabcontent">
+  <h3 class = "text1">Projects</h3>
+  <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/99667732/original/2ed401804f3223cd170703b4791b5b995d089a48/create-java-gui-programs-for-you.jpg">
+  <img src="https://favtutor.com/resources/images/uploads/mceu_34219342811651988097120.png">
+</div>
+
+</body>
+</html>
+
+<style>
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #001D85;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tablinks{
+	color:  white;
+}
+
+#port {
+	font-size: 24;
+}
+#Skills {
+	background-color
+}
+</style>
